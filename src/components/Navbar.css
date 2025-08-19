@@ -1,0 +1,13 @@
+.navbar {
+  margin: 0;
+  background-color: #3c4454;
+  /* height: 100%; */
+  width: 100%;   
+  font-size: large;
+}
+
+.navHeading{
+    margin: 0.5rem 0 0.5rem 0;
+    color: white;
+    font-weight: 700;
+}

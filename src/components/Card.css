@@ -1,0 +1,66 @@
+.Card{
+    width: 19.5rem;
+    overflow: hidden;
+    background-color: #3c4454;
+    height: 20rem;
+    /* height: fit-content; */
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.course-img{
+    width: 100%;
+}
+
+.like-btns{
+    position: absolute;
+    background-color: rgb(220, 204, 206);
+    border-radius: 50%;
+    font-size: 1.75rem;
+    border: none;
+    right: 5%;
+    top: 39%;
+    padding: .1% 1% 0 1%;
+}
+
+.like{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.like-btn{
+    position: absolute;
+    background-color: rgb(94, 91, 91);
+    border-radius: 50%;
+    font-size: 1.75rem;
+    border: none;
+    right: 5%;
+    top: 39%;
+    padding: .1% 1% 0 1%;
+}
+
+.course-data{
+    text-align: center;
+    text-align:start;
+    margin: .5rem;
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.title{
+    text-align: center;
+    font-weight: 500;
+}
+
+.discription{
+    font-size: .9rem;
+    margin-top: .7rem;
+    opacity: .8;
+}
